@@ -1,0 +1,355 @@
+{
+	"widget" : [
+		{
+			"type" : "BasicTxtBox",
+			"isContainer" : false,
+			"isUpload" : false,
+			"hasGuide" : true,
+			"isChild" : true,
+			"dragable" : true,
+			"resizable" : true,
+			"width" : 250,
+			"height" : 60,
+			"left" : 696,
+			"top" : 23,
+			"z" : 0,
+			"lineHeight" : 1.6,
+			"fontSize" : 20,
+			"fontFamily" : "Microsoft YaHei",
+			"fontWeight" : false,
+			"color" : "#000000",
+			"textAlign" : "center",
+			"text" : "文本",
+			"name" : "文本框",
+			"desc" : "",
+			"href" : "",
+			"belong" : "page",
+			"animationName" : "",
+			"uuid" : "69303039f1"
+		},
+		{
+			"type" : "BasicRTClock",
+			"isContainer" : false,
+			"isUpload" : false,
+			"hasGuide" : true,
+			"isChild" : true,
+			"dragable" : true,
+			"resizable" : true,
+			"width" : 350,
+			"height" : 60,
+			"left" : 1167,
+			"top" : 3,
+			"z" : 0,
+			"name" : "实时时间",
+			"belong" : "page",
+			"animationName" : "",
+			"lineHeight" : 1.6,
+			"fontSize" : 20,
+			"fontFamily" : "Microsoft YaHei",
+			"fontWeight" : false,
+			"color" : "#000000",
+			"textAlign" : "center",
+			"href" : "",
+			"fontSpacing" : 0,
+			"timeType" : "y-m-d-h-m-s",
+			"timeStr" : "2019-05-10 19:32:17",
+			"uuid" : "7d31f618d2"
+		},
+		{
+			"type" : "CircularProgressBar",
+			"isContainer" : false,
+			"isUpload" : false,
+			"hasGuide" : true,
+			"isChild" : true,
+			"dragable" : true,
+			"resizable" : true,
+			"width" : 160,
+			"height" : 160,
+			"left" : 452,
+			"top" : 315,
+			"z" : 0,
+			"color" : "#555555",
+			"name" : "环形进度条",
+			"desc" : "",
+			"belong" : "page",
+			"animationName" : "",
+			"chartTitle" : "销量",
+			"textStyleColor" : "#fc8700",
+			"showTitle" : true,
+			"titleColor" : "#fc8700",
+			"titleFontSize" : 24,
+			"lgArr" : [
+				{
+					"color" : "#fc8700",
+					"offset" : 0
+				},
+				{
+					"color" : "#ba3ba3",
+					"offset" : 1
+				}
+			],
+			"colorArr" : [
+				"#fc8700",
+				"#eeeeee"
+			],
+			"isLinear" : true,
+			"seriesRadius" : [
+				"78%",
+				"90%"
+			],
+			"dataAPI" : "https://easy-mock.com/mock/5cc6c0a89edd7844f38df463/cryia/api/salevolume",
+			"dataAutoRefresh" : false,
+			"dataOrigin" : "local",
+			"dataRefreshTime" : 5,
+			"dataRefresh" : false,
+			"linkEnable" : false,
+			"linkIsMain" : false,
+			"linkMainUUID" : "",
+			"keyPrimary" : "data",
+			"keyTarget" : "progress",
+			"keyXAxis" : "",
+			"keyYAxis" : "",
+			"staticData" : {
+				"code" : 0,
+				"data" : {
+					"progress" : 80
+				}
+			},
+			"uuid" : "b9bfa65b59"
+		},
+		{
+			"type" : "BasicTxtBox",
+			"isContainer" : false,
+			"isUpload" : false,
+			"hasGuide" : true,
+			"isChild" : true,
+			"dragable" : true,
+			"resizable" : true,
+			"width" : 250,
+			"height" : 60,
+			"left" : 224,
+			"top" : 28,
+			"z" : 0,
+			"lineHeight" : 1.6,
+			"fontSize" : 20,
+			"fontFamily" : "Microsoft YaHei",
+			"fontWeight" : false,
+			"color" : "#000000",
+			"textAlign" : "center",
+			"text" : "文sdddddddddd",
+			"name" : "文本框",
+			"desc" : "",
+			"href" : "",
+			"belong" : "page",
+			"animationName" : "",
+			"uuid" : "7be69029a2"
+		},
+		{
+			"type" : "CircularProgressBar",
+			"isContainer" : false,
+			"isUpload" : false,
+			"hasGuide" : true,
+			"isChild" : true,
+			"dragable" : true,
+			"resizable" : true,
+			"width" : 160,
+			"height" : 160,
+			"left" : 1032,
+			"top" : 580,
+			"z" : 0,
+			"color" : "#555555",
+			"name" : "环形进度条",
+			"desc" : "",
+			"belong" : "page",
+			"animationName" : "",
+			"chartTitle" : "销量",
+			"textStyleColor" : "#fc8700",
+			"showTitle" : true,
+			"titleColor" : "#fc8700",
+			"titleFontSize" : 24,
+			"lgArr" : [
+				{
+					"color" : "#fc8700",
+					"offset" : 0
+				},
+				{
+					"color" : "#ba3ba3",
+					"offset" : 1
+				}
+			],
+			"colorArr" : [
+				"#fc8700",
+				"#eeeeee"
+			],
+			"isLinear" : true,
+			"seriesRadius" : [
+				"78%",
+				"90%"
+			],
+			"dataAPI" : "https://easy-mock.com/mock/5cc6c0a89edd7844f38df463/cryia/api/salevolume",
+			"dataAutoRefresh" : false,
+			"dataOrigin" : "local",
+			"dataRefreshTime" : 5,
+			"dataRefresh" : false,
+			"linkEnable" : false,
+			"linkIsMain" : false,
+			"linkMainUUID" : "",
+			"keyPrimary" : "data",
+			"keyTarget" : "progress",
+			"keyXAxis" : "",
+			"keyYAxis" : "",
+			"staticData" : {
+				"code" : 0,
+				"data" : {
+					"progress" : 80
+				}
+			},
+			"uuid" : "ad5831fb89"
+		},
+		{
+			"type" : "CircularProgressBar",
+			"isContainer" : false,
+			"isUpload" : false,
+			"hasGuide" : true,
+			"isChild" : true,
+			"dragable" : true,
+			"resizable" : true,
+			"width" : 160,
+			"height" : 160,
+			"left" : 179,
+			"top" : 185,
+			"z" : 0,
+			"color" : "#555555",
+			"name" : "环形进度条",
+			"desc" : "",
+			"belong" : "page",
+			"animationName" : "",
+			"chartTitle" : "销量",
+			"textStyleColor" : "#fc8700",
+			"showTitle" : true,
+			"titleColor" : "#fc8700",
+			"titleFontSize" : 24,
+			"lgArr" : [
+				{
+					"color" : "#fc8700",
+					"offset" : 0
+				},
+				{
+					"color" : "#ba3ba3",
+					"offset" : 1
+				}
+			],
+			"colorArr" : [
+				"#fc8700",
+				"#eeeeee"
+			],
+			"isLinear" : true,
+			"seriesRadius" : [
+				"78%",
+				"90%"
+			],
+			"dataAPI" : "https://easy-mock.com/mock/5cc6c0a89edd7844f38df463/cryia/api/salevolume",
+			"dataAutoRefresh" : false,
+			"dataOrigin" : "local",
+			"dataRefreshTime" : 5,
+			"dataRefresh" : false,
+			"linkEnable" : false,
+			"linkIsMain" : false,
+			"linkMainUUID" : "",
+			"keyPrimary" : "data",
+			"keyTarget" : "progress",
+			"keyXAxis" : "",
+			"keyYAxis" : "",
+			"staticData" : {
+				"code" : 0,
+				"data" : {
+					"progress" : 80
+				}
+			},
+			"uuid" : "af384a1bd4"
+		},
+		{
+			"type" : "CircularProgressBar",
+			"isContainer" : false,
+			"isUpload" : false,
+			"hasGuide" : true,
+			"isChild" : true,
+			"dragable" : true,
+			"resizable" : true,
+			"width" : 160,
+			"height" : 160,
+			"left" : 684,
+			"top" : 497,
+			"z" : 0,
+			"color" : "#555555",
+			"name" : "环形进度条",
+			"desc" : "",
+			"belong" : "page",
+			"animationName" : "",
+			"chartTitle" : "销量",
+			"textStyleColor" : "#fc8700",
+			"showTitle" : true,
+			"titleColor" : "#fc8700",
+			"titleFontSize" : 24,
+			"lgArr" : [
+				{
+					"color" : "#fc8700",
+					"offset" : 0
+				},
+				{
+					"color" : "#ba3ba3",
+					"offset" : 1
+				}
+			],
+			"colorArr" : [
+				"#fc8700",
+				"#eeeeee"
+			],
+			"isLinear" : true,
+			"seriesRadius" : [
+				"78%",
+				"90%"
+			],
+			"dataAPI" : "https://easy-mock.com/mock/5cc6c0a89edd7844f38df463/cryia/api/salevolume",
+			"dataAutoRefresh" : false,
+			"dataOrigin" : "local",
+			"dataRefreshTime" : 5,
+			"dataRefresh" : false,
+			"linkEnable" : false,
+			"linkIsMain" : false,
+			"linkMainUUID" : "",
+			"keyPrimary" : "data",
+			"keyTarget" : "progress",
+			"keyXAxis" : "",
+			"keyYAxis" : "",
+			"staticData" : {
+				"code" : 0,
+				"data" : {
+					"progress" : 80
+				}
+			},
+			"uuid" : "094db0f5c9"
+		}
+	],
+	"hash" : "3cff89e368d0eaa83ff2806666f58b46",
+	"config" : {
+		"title" : "测试",
+		"about" : "",
+		"width" : 1920,
+		"height" : 1080,
+		"backgroundColor" : "#400080",
+		"backPic" : "",
+		"zoom" : 100,
+		"timestamp" : 1557455832620
+	},
+	"publish" : {
+		"status" : "published",
+		"timestamp" : 1557912991972,
+		"hash" : "3b1d2f5ccbb6ff4ac3cf675b74798ad4"
+	},
+	"isTemplate" : false,
+	"imgUrl" : "/images/dashboards/3cff89e368d0eaa83ff2806666f58b46.png",
+	"user" : "5cbd6f5775f972a112595173",
+	"timestamp" : 1557455832620,
+	"__v" : 0
+}
